@@ -17,7 +17,13 @@
  
  # Lista para almacenar personas
  personas = []
- 
+
+# Personas predefinidas (una con ocupación y tres con diferentes datos)
+personas.append(Persona("Carlos", 35, "Profesor"))
+personas.append(Persona("Ana", 29, "Diseñadora"))
+personas.append(Persona("Luis", 22))
+personas.append(Persona("Marta", 41, "Médico"))
+
  # Función para mostrar menú principal
  def mostrar_menu():
      print("\n----- MENÚ PRINCIPAL -----")
